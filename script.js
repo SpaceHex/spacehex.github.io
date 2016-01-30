@@ -1,4 +1,4 @@
-falserticlesJS("particles-js", {
+ParticlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 100,
