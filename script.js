@@ -1,3 +1,9 @@
+$('.dots li').click(function(event) {
+  $('.dots li').removeClass('active');
+  $(event.target).addClass('active');
+  $('.section').removeClass('active');
+  $('[s=' + $(event.target).attr('data-s') + ']')
+.addClass('active')});
 particlesJS("particles-js", {
   "particles": {
     "number": {
