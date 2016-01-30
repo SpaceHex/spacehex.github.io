@@ -1,4 +1,4 @@
-particlesJS("particles-js", {
+falserticlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 100,
@@ -46,7 +46,7 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 100,
       "color": "#ffffff",
       "opacity": 0.6,
